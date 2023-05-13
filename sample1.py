@@ -1,5 +1,12 @@
-print('Hello wolrd!')
-a = 4
-b = 6
-if a*b<45:
-    print('Insuficiente')
+print('Hola profe')
+
+a=3
+b=7
+c=4000
+d=a*b
+while d<c:
+    d=d*d
+    if d>c:
+        print('Resultado:',d)
+        break
+
